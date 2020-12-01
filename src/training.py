@@ -1,7 +1,7 @@
 import numpy as np
 import tensorflow as tf
 import pickle
-from autoencoder import full_network, define_loss
+from cnn_autoencoder import full_network, define_loss
 
 
 def train_network(training_data, val_data, params):

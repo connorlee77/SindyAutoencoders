@@ -1,0 +1,3 @@
+*.mat
+src/__pycache__/
+.vscode/

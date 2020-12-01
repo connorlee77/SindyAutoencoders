@@ -3,7 +3,7 @@ import scipy.io as sio
 
 
 def get_rd_data(random=True):
-    data = sio.loadmat('reaction_diffusion.mat')
+    data = sio.loadmat('reaction_diffusion_small.mat')
 
     n_samples = data['t'].size
     n = data['x'].size
